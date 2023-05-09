@@ -1,0 +1,27 @@
+.ImageBannerSectionContainer {
+  margin: 0 auto;
+}
+
+.ImageBannerSectionContainer img {
+  width: 100%;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}

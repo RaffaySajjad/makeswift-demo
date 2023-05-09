@@ -1,0 +1,71 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  [data-show="desktop"] {
+    display: none !important;
+  }
+}
+
+@media (min-width: 901px) {
+  [data-show="mobile"] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [data-show="min-481"] {
+    display: none !important;
+  }
+}
+
+@media (min-width: 481px) {
+  [data-show="max-480"] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 900px) {
+  [data-show="min-901"] {
+    display: none !important;
+  }
+}
+
+@media (min-width: 901px) {
+  [data-show="max-900"] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  [data-show="min-1201"] {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  [data-show="max-1200"] {
+    display: none !important;
+  }
+}

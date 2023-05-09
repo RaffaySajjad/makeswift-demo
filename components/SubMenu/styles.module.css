@@ -1,0 +1,72 @@
+.subMenuContainer {
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subMenuContainer:first-child {
+  padding-right: 30px;
+  padding-left: 0;
+  border-right: 1px solid var(--colors-pallete-secondary-soft-color);
+}
+
+.subMenuTitle {
+  color: var(--colors-shades-550-color);
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.collectionLink {
+  position: relative;
+  height: fit-content;
+}
+
+.collectionLink:hover .collectionButton {
+  bottom: 16px;
+  opacity: 1;
+}
+
+.collectionLink:hover .collectionButton:hover {
+  opacity: 0.8;
+}
+
+.menuImage {
+  border-radius: 10px;
+  position: relative;
+  max-width: 200px;
+  transition: 0.6s ease-in-out;
+  opacity: 1;
+}
+
+.collectionButton {
+  background-color: #1b1919;
+  border: 0;
+  opacity: 0;
+  border-radius: 8px;
+  bottom: -50px;
+  color: var(--colors-shades-white-color);
+  font-size: 14px;
+  left: 20px;
+  padding: 12px 20px;
+  position: absolute;
+  text-align: center;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 2;
+}
+
+.subMenuOption {
+  padding: 6px 0;
+}
+
+.subMenuOption a {
+  display: inline-block;
+  padding-left: 0;
+  transition: padding-left 0.3s linear;
+}
+
+.subMenuOption:hover a {
+  padding-left: 8px;
+  color: var(--colors-pallete-primary-color);
+}

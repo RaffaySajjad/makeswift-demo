@@ -1,0 +1,9 @@
+.headerLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.headerLogoImage {
+  max-width: 164px;
+  height: 42.8px;
+}

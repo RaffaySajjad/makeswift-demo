@@ -1,0 +1,13 @@
+.button{
+  padding: 15px 20px 11px;
+  border-radius: 8px;
+  margin: 35px 0 35px;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .button{
+    margin: 20px 0;
+    padding: 12px 17px;
+  }
+}

@@ -1,0 +1,15 @@
+.newsletterSuccessDescription * {
+  margin: 0;
+  color: #292929;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.newsletterEmailInput * {
+  height: 36px;
+}
+
+.newsletterEmailInput input {
+  height: 36px;
+}

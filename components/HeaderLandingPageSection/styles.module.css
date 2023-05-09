@@ -1,0 +1,90 @@
+.container {
+  min-width: 100%;
+  text-align: center;
+  font-size: 25px !important;
+}
+
+.stickyBanner {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  padding: 20px;
+}
+
+.stickyBanner a {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--colors-pallete-primary-color);
+  border-color: var(--colors-pallete-primary-color);
+  padding: 15px 45px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--colors-pallete-secondary-color);
+  line-height: 16px;
+  border-radius: 8px;
+  transition: all linear 300ms;
+  z-index: 9999;
+}
+
+.stickyBanner a:hover {
+  background-color: var(--colors-pallete-primary-80-color);
+}
+
+.titleText {
+  line-height: 38px !important;
+  text-align: center !important;
+  font-size: 30px !important;
+}
+
+.paragraphText {
+  line-height: 22px !important;
+  font-weight: 400;
+  font-size: 14px !important;
+}
+
+.mobileWrap {
+  display: grid;
+  row-gap: 20px;
+  width: 100%;
+  padding: 20px 36px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .titleText {
+    line-height: 54px !important;
+    text-align: center !important;
+    font-size: 52px !important;
+  }
+
+  .paragraphText {
+    line-height: 170% !important;
+    font-weight: 400;
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .desktopWrap {
+    display: grid;
+    row-gap: 20px;
+    width: 100%;
+    padding: 40px calc((118vw - 1200px) * 0.5 + 36px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .desktopWrap {
+    display: grid;
+    row-gap: 20px;
+    width: 100%;
+    padding: 40px calc((118vw - 1200px) * 0.5 + 36px);
+  }
+}

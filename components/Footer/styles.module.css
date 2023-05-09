@@ -1,0 +1,13 @@
+.container {
+  max-width: 1172px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin: auto;
+}
+
+.wrapper {
+  padding-left: 16px;
+  padding-right: 16px;
+}

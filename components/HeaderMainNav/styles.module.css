@@ -1,0 +1,42 @@
+.headerList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.headerListItemLink {
+  position: relative;
+  padding: 32px 0;
+}
+
+.headerListItemLink svg {
+  margin-left: 4px;
+}
+
+.headerList .headerListItemLink:hover {
+  color: var(--colors-pallete-primary-color);
+}
+
+.headerList .headerListItemLink:hover svg {
+  fill: var(--colors-pallete-primary-color);
+}
+
+.headerList .headerListItemLink::after {
+  background: var(--colors-pallete-primary-color);
+  bottom: 0;
+  content: '';
+  height: 3px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+  width: 100%;
+}
+
+.headerList .headerListItemLink:hover::after {
+  opacity: 1;
+}

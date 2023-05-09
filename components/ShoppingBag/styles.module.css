@@ -1,0 +1,17 @@
+
+.wrapper{
+  position: relative;
+}
+.headerCartIconItems {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  line-height: 16px;
+  font-size: 10px;
+  color: var(--colors-shades-white-color);
+  background-color: var(--colors-pallete-primary-color);
+  text-align: center;
+}

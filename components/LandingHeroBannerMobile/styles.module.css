@@ -1,0 +1,42 @@
+.titleContainer {
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.titleContainer h2 {
+  line-height: 38px;
+  max-width: 335px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+.imageContainer {
+  padding: 15px;
+  text-align: center;
+}
+
+.imageContainer img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.textContainer {
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #292929;
+  line-height: 1.5;
+}
+
+.ctaContainer {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.ctaContainer button {
+  margin: 0 auto;
+}

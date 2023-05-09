@@ -1,0 +1,67 @@
+.banner {
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+
+.banner img {
+  width: 80%;
+}
+
+.banner__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bannertag {
+  display: inline-block;
+  padding: 5px 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 500px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  width: fit-content;
+}
+
+.layout {
+  display: flex;
+  width: 1170px;
+  max-width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.layout--justifyLeft {
+  justify-content: left;
+}
+
+.layout--justifyCenter {
+  justify-content: center;
+}
+
+.layout--justifyRight {
+  justify-content: right;
+}
+
+.layout--justifyFlexStart {
+  justify-content: flex-start;
+}
+
+.layout--justifyFlexEnd {
+  justify-content: flex-end;
+}
+
+.layout--alignStart {
+  align-items: start;
+}
+
+.layout--alignCenter {
+  align-items: center;
+}
+
+.layout--alignEnd {
+  align-items: end;
+}

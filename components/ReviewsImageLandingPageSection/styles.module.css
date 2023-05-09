@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  grid-template-columns: 48% auto;
+  gap: 30px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 36px;
+}
+
+.image {
+  width: 100%;
+}
+
+.commentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stars {
+  max-width: 141px;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .container {
+    text-align: left;
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+  .heading {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+
+  .stars {
+    max-width: 104px;
+    width: 100%;
+  }
+}

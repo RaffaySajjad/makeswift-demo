@@ -1,0 +1,29 @@
+.stickyBanner {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  padding: 20px;
+}
+
+.stickyBanner a {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--colors-pallete-secondary-color);
+  border-color: var(--colors-pallete-secondary-color);
+  padding: 15px 45px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 16px;
+  border-radius: 8px;
+  transition: all linear 300ms;
+  z-index: 9999;
+  box-shadow: 0 0 20px 20px #ffffff;
+}

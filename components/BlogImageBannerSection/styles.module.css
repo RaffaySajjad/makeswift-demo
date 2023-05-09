@@ -1,0 +1,64 @@
+.advertorial {
+  padding: 0 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.smallImage {
+  display: flex;
+  padding: 0 4%;
+  justify-content: center;
+}
+
+.smallImage > div > img {
+  max-width: 760px;
+}
+
+.mobileBanner {
+  width: 100%;
+  display: block;
+}
+
+.tabletBanner,
+.desktopBanner {
+  display: none;
+}
+
+.mobileBanner > img,
+.tabletBanner > img,
+.desktopBanner > img {
+  width: 100%;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: 50%;
+}
+
+/* TABLET */
+
+@media (min-width: 481px) {
+  .tabletBanner {
+    display: block;
+  }
+
+  .mobileBanner,
+  .desktopBanner {
+    display: none;
+  }
+}
+
+/* DESKTOP */
+
+@media (min-width: 1200px) {
+  .desktopBanner {
+    display: block;
+  }
+
+  .mobileBanner,
+  .tabletBanner {
+    display: none;
+  }
+
+  .advertorial {
+    padding: 0 23.5%;
+  }
+}

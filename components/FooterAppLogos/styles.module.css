@@ -1,0 +1,24 @@
+.appLogos {
+  padding: 0 16px;
+  text-align: center;
+
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.downloadLogos {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .appLogos {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .downloadLogos {
+    justify-content: flex-start;
+  }
+}

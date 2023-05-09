@@ -1,0 +1,113 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--colors-shades-white-color);
+}
+
+.container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 1170px;
+}
+
+.wrapper {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.headerGrid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin-right: -16px;
+  margin-left: -16px;
+}
+
+.headerColumn {
+  flex: 1;
+  max-width: 100%;
+
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.headerColumn1 {
+  flex-basis: 8.3333333333%;
+  max-width: 8.3333333333%;
+}
+
+.headerColumn2 {
+  flex-basis: 16.6666666667%;
+  max-width: 16.6666666667%;
+}
+
+.headerColumn3 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.headerColumn8 {
+  flex-basis: 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+
+.headerColumn9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.headerColumn12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.headerList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.headerMainNav {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.headerSecondaryNav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerCartIcon {
+  position: relative;
+}
+
+.headerCartIconButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 0;
+}
+
+.headerCartIconItems {
+  position: absolute;
+  top: -7px;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  line-height: 16px;
+  font-size: 10px;
+  color: var(--colors-shades-white-color);
+  background-color: var(--colors-pallete-primary-color);
+  text-align: center;
+}

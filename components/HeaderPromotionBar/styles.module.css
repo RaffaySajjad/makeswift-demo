@@ -1,0 +1,46 @@
+.topBarWrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  height: 22px;
+  position: relative;
+  color: var(--colors-background-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .topBarWrapper {
+    font-size: 12px;
+  }
+}
+
+.topBarWrapper h6 {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.topBarWrapper div[data-testid='Time'] {
+  display: inline;
+}
+
+.slideWrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.slide {
+  opacity: 0;
+}
+
+.activeSlide {
+  opacity: 1;
+}
