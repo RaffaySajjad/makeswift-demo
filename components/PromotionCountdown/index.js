@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles.module.css";
 import { Text, Timer } from "@trafilea/afrodita-components";
-import CustomCTA from "Components/CustomCTA";
-import { formatDateOrdinal } from "Components/Utils";
+import CustomCTA from "../CustomCTA";
+import { formatDateOrdinal } from "../Utils";
 
 /**
  * @typedef {{
